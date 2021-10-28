@@ -1,0 +1,172 @@
+[
+  {
+    "description": "    Feature Description : Successful login to parabank website and doing transactions",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-to-banking-site;navigate-to-parabank-website",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "navigate to parabank website",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "user navigates to parabank website",
+            "match": {
+              "location": "stepDefinitions\\login.stepDef.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2008000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 16000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-to-banking-site;title-validate",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "title validate",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "user validates the title of the page \"Protractor practice website - Banking App\"",
+            "match": {
+              "location": "stepDefinitions\\login.stepDef.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 573000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 11000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-to-banking-site;login-to-the-website",
+        "keyword": "Scenario Outline",
+        "line": 11,
+        "name": "login to the website",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "user clicks on customerLogin Button",
+            "match": {
+              "location": "stepDefinitions\\login.stepDef.js:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2002000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "user selects the value as from the list",
+            "match": {
+              "location": "stepDefinitions\\login.stepDef.js:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 109000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "stepDefinitions\\login.stepDef.js:65"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "user validates the welcome page as \"Ron Weasly\"",
+            "match": {
+              "location": "stepDefinitions\\login.stepDef.js:72"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3101000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 22000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-to-banking-site",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "login to banking site",
+    "tags": [],
+    "uri": "features\\login.feature"
+  }
+]

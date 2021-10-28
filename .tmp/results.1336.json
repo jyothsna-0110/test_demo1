@@ -1,0 +1,93 @@
+[
+  {
+    "description": "    Feature Description : Successful login to parabank website and doing transactions",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-to-parabank;navigate-to-parabank-website",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "navigate to parabank website",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "user navigates to parabank website \"https://www.way2automation.com/angularjs-protractor/banking/#/login\"",
+            "match": {
+              "location": "stepDefinitions\\login.stepDef.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2872000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 26000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-to-parabank;title-validate",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "title validate",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "user validates the title of the page \"Protractor practice website - Banking App\"",
+            "match": {
+              "location": "stepDefinitions\\login.stepDef.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 151000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 20000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-to-parabank",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "login to parabank",
+    "tags": [],
+    "uri": "features\\login.feature"
+  }
+]
